@@ -1,0 +1,95 @@
+/* You can add global styles to this file, and also import other style files */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	background-image: url("font.png");
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+}
+
+#text {
+	margin-top: 73px;
+	width: 1100px;
+	border: 2px solid;
+	padding: 9px;
+	background-image: url("font1.png");
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+#tr1 {
+	font-weight: bolder;
+	color: #4D4D4D;
+}
+
+table {
+	background: #EFEFEF;
+	margin-left: 10px;
+	margin-right: 10px;
+	border-collapse: collapse;
+	border:2px solid;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+td {
+	border:2px solid #4D4D4D;
+	padding: 5px;
+	text-align: center;
+}
+
+input {
+	border:2px solid #4D4D4D;
+	padding: 3px;
+	box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+}
+
+#inp1{
+	width: 160px;
+}
+#inp2{
+	width: 100px;
+}
+
+h3 {
+	text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+	color: #4D4D4D;
+}
+
+#bkg {
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  background: #B3B3B3;
+  z-index:1;
+  position:fixed;
+  display:none;
+}
+
+#a {
+  z-index:3;
+  position:fixed;
+  display:none;
+}
+
+#windows {
+  border: 2px solid;
+	padding: 9px;
+	background-image: url("font1.png");
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  width: 300px;
+  height: 80px;
+}
